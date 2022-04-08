@@ -9,8 +9,12 @@ const HomePage: React.FunctionComponent<IHomePageProps> = (props) => {
     return (
         <div>
             <p>This is the home page.</p>
-            <Link to="/about">Go to the About Page!</Link>
-            <br />
+            <p>
+                <Link to="/about">Go to the About Page!</Link>
+            </p>
+            <p>
+                <Link to="/test">Go to the Test Page!</Link>
+            </p>
             <button onClick={() => navigate('/layout/55')}>Go to layout, with a number</button>
         </div>
     );
